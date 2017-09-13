@@ -1,23 +1,16 @@
 package com.example.akshay.parth;
 
 
-import android.content.ComponentName;
 import android.content.Intent;
-
-
-import android.content.pm.PackageManager;
 import android.net.Uri;
+import android.os.Bundle;
 import android.provider.MediaStore;
+import android.speech.RecognizerIntent;
 import android.support.annotation.NonNull;
-
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
-
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-
 import android.view.KeyEvent;
-
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -26,11 +19,12 @@ import android.view.View;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
-
 import static com.example.akshay.parth.R.id.sign_out_menu;
 
 
 public class MainActivity extends AppCompatActivity {
+    private static final int RECOGNIZER_REQ_CODE = 1234;
+
 
     public static final int CAMERA_PIC_REQUEST = 1;//firstly define this
 
@@ -122,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if ((keyCode == KeyEvent.KEYCODE_VOLUME_DOWN)) {
 
-            String phone = "08039514866";
+            String phone = "08039515021";
             Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", phone, null));
             startActivity(intent);
             Intent callIntent = new Intent(Intent.ACTION_CALL);
@@ -172,9 +166,24 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void Source(View view) {
-        Intent i=new Intent(this,Source.class);
+        Intent i=new Intent(this,BarcodeActivity.class);
         startActivity(i);
     }
 
 
+    public void attend(View view) {
+        Intent j=new Intent(this,BarcodeActivity2.class);
+        startActivity(j);
+    }
+
+    public void knowmore(View view) {
+        Intent k=new Intent(this,BarcodeActivity3.class);
+        startActivity(k);
+    }
+
+
+    public void ok(View view) {
+
+
+    }
 }

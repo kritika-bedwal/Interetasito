@@ -11,16 +11,10 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.Spinner;
 
-import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.firebase.storage.StorageReference;
-import com.google.firebase.storage.UploadTask;
-
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 import static android.app.Activity.RESULT_OK;
@@ -136,4 +130,6 @@ public class FragmentComplaint extends Fragment{
             complaint.setImageURI(Uri.parse(ImageUri));
         }
     }
+
+
 }

@@ -37,7 +37,59 @@
         <item>Medical Emergency</item>
 
     </string-array>
+    <string-array name="Questions_array">
+        <item>Which of the following is used as a terminating statement</item>
 
+        <item>Which of the following uses the break statements</item>
+        <item>Friend function is used to call what type of functions</item>
+        <item>which of the following loop works atleast once</item>
+        <item>From where does the index of an array statr from</item>
+
+    </string-array>
+    <string-array name="Answers_array">
+        <item>;</item>
+
+        <item>loops</item>
+        <item>private</item>
+        <item>do while</item>
+        <item>0</item>
+
+    </string-array>
+    <string-array name="Optionsone_array">
+        <item>/</item>
+
+        <item>functions</item>
+        <item>private</item>
+        <item>while</item>
+        <item>0</item>
+
+    </string-array>
+    <string-array name="optionstwo_array">
+        <item>*</item>
+        <item>structures</item>
+        <item>protected</item>
+        <item>do while</item>
+        <item>1</item>
+
+    </string-array>
+    <string-array name="optionthree_array">
+
+        <item>;</item>
+        <item>loops</item>
+        <item>public</item>
+        <item>for</item>
+        <item>-1</item>
+
+    </string-array>
+    <string-array name="optionfour_array">
+
+        <item>:</item>
+        <item>ifelse</item>
+        <item>void</item>
+        <item>none</item>
+        <item>2</item>
+
+    </string-array>
 
     <string name="ok">OK</string>
     <string name="permission_camera_rationale">Access to the camera is needed for detection</string>

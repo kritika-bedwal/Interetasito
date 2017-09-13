@@ -12,7 +12,7 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/applogo"
-        android:label="PARTH"
+        android:label="INTERESTACITO"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="false"
         android:theme="@style/AppTheme">
@@ -32,10 +32,17 @@
         <activity android:name=".ResetPasswordActivity" />
         <activity android:name=".SignupActivity" />
         <activity android:name=".JobDescription" />
+
         <activity android:name=".WebView" />
         <activity android:name=".BarcodeActivity" />
         <activity android:name=".BarcodeActivity3" />
         <activity android:name=".BarcodeActivity2" />
+
+        <activity android:name=".Source" />
+        <activity android:name=".tutor" />
+        <activity android:name=".WebView" />
+        <activity android:name=".QuizActivity"></activity>
+
     </application>
 
 </manifest>

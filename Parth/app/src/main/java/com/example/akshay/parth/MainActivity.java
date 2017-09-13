@@ -57,6 +57,9 @@ public class MainActivity extends AppCompatActivity {
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
 
+        Intent i2=new Intent(this,QuizActivity.class);
+        startActivity(i2);
+
 
 //You tab icons
         int[] icons = {

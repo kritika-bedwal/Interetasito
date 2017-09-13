@@ -12,7 +12,7 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/applogo"
-        android:label="PARTH"
+        android:label="INTERESTACITO"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="false"
         android:theme="@style/AppTheme">
@@ -32,7 +32,8 @@
         <activity android:name=".JobDescription" />
         <activity android:name=".Source" />
         <activity android:name=".tutor" />
-        <activity android:name=".WebView"></activity>
+        <activity android:name=".WebView" />
+        <activity android:name=".QuizActivity"></activity>
     </application>
 
 </manifest>

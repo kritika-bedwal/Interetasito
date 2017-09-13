@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "602048980138",
+    "firebase_url": "https://parth-bbe31.firebaseio.com",
+    "project_id": "parth-bbe31",
+    "storage_bucket": "parth-bbe31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602048980138:android:17c99189c39c6794",
+        "android_client_info": {
+          "package_name": "com.example.akshay.parth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602048980138-jkfd02dnuaffsjjoqb8c9107ulo4qss6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.akshay.parth",
+            "certificate_hash": "1dd694735b734d6c03ffc3f8d9213f6eb828fa1a"
+          }
+        },
+        {
+          "client_id": "602048980138-pdbph3q9ephf86ms4ae3bbifjmechdgn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlovqwLDhJizXqYRnlpIT0W3E-GFhl_fw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602048980138-pdbph3q9ephf86ms4ae3bbifjmechdgn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

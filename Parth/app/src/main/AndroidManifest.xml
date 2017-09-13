@@ -23,16 +23,19 @@
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.google.android.gms.actions.SEARCH_ACTION" />
 
+                <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".ResetPasswordActivity" />
         <activity android:name=".SignupActivity" />
         <activity android:name=".JobDescription" />
-        <activity android:name=".Source" />
-        <activity android:name=".tutor" />
-        <activity android:name=".WebView"></activity>
+        <activity android:name=".WebView" />
+        <activity android:name=".BarcodeActivity" />
+        <activity android:name=".BarcodeActivity3" />
+        <activity android:name=".BarcodeActivity2" />
     </application>
 
 </manifest>
